@@ -40,7 +40,6 @@ class VoiceBloc extends Bloc {
   void setVisuals(String screen) {
     var visual = '{"screen":"$screen"}';
     AlanVoice.setVisualState(visual);
-    print(visual);
   }
 }
 

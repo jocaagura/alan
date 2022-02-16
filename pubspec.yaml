@@ -25,6 +25,8 @@ dev_dependencies:
 flutter_native_splash:
   color: "#8128d4"
   image: 'assets/icon.png'
+  color_dark: "#1a1a1a"
+  image_dark: 'assets/icon.png'
   android: true
 
 flutter_icons:

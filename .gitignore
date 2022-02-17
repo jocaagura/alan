@@ -5,6 +5,7 @@
 *.pyc
 *.swp
 const.dart
+*.aab
 .DS_Store
 .atom/
 .buildlog/

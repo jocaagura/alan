@@ -14,7 +14,7 @@ class AppRoutes {
 
   static Map<String, Widget Function(BuildContext)> routes = {
     '/': (context) => const MyHomePage(),
-    '/help': (context) => const HelpPage()
+    '/help': (context) => const HelpPage(),
   };
   static String _currentScreen = '/';
 
@@ -45,5 +45,9 @@ class AppRoutes {
 
   static void setContext(BuildContext context) {
     _context = context;
+  }
+
+  static void addRoute(String key, Widget widget) {
+    routes['/$key'] = (context) => widget;
   }
 }

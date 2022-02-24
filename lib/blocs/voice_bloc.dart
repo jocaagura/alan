@@ -41,6 +41,9 @@ class VoiceBloc extends Bloc {
     var visual = '{"screen":"$screen"}';
     AlanVoice.setVisualState(visual);
   }
+
+  @override
+  dispose() {}
 }
 
 final voiceBloc = VoiceBloc();

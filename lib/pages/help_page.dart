@@ -49,6 +49,16 @@ class _HelpPageState extends State<HelpPage> {
             subtitle: "Go to previous screen.",
           ),
           const Divider(),
+          const _HelpTile(
+            title: "Change theme",
+            subtitle: "Change random theme.",
+          ),
+          const Divider(),
+          const _HelpTile(
+            title: "Go theme page",
+            subtitle: "Go o theme example page.",
+          ),
+          const Divider(),
           const Divider(),
           const _HelpTile(
             title: "Interactions",

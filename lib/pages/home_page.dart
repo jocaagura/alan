@@ -1,6 +1,7 @@
 import 'package:alan/router.dart';
 import 'package:flutter/material.dart';
 
+import '../blocs/theme_bloc.dart';
 import '../blocs/voice_bloc.dart';
 import '../widgets/design/background_blueprint_widget.dart';
 
@@ -46,6 +47,8 @@ class _MyHomePageState extends State<MyHomePage> {
     voiceBloc.addCommand('goBack', () {
       AppRoutes.goBack();
     });
+    blocTheme;
+
   }
 
   @override

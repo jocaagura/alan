@@ -1,1 +1,3 @@
-abstract class Bloc{}
+abstract class Bloc {
+  dispose();
+}

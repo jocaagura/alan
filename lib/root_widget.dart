@@ -20,8 +20,11 @@ class _MyAppState extends State<MyApp> {
   @override
   void initState() {
     super.initState();
+
     themeStream = blocTheme.themeDataStream.listen((event) {
-      setState(() {});
+      setState(() {
+        themeData = blocTheme.themeData;
+      });
     });
   }
 

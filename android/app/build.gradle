@@ -41,8 +41,8 @@ android {
     defaultConfig {
         applicationId "com.jocaagura.alan"
         minSdkVersion 21
-        targetSdkVersion flutter.targetSdkVersion
-        versionCode 2
+        targetSdkVersion 33
+        versionCode 3
         versionName flutterVersionName
     }
 
